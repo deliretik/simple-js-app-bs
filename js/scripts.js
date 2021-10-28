@@ -17,6 +17,7 @@ let pokemonRepository = (function () {
       let pokemonButton = document.createElement('button');
         pokemonButton.innerText = pokemon.name;
         pokemonButton.classList.add('btn-primary');
+        //pokemonButton.dataset.target = "#exampleModal";
         pokemonListItem.appendChild(pokemonButton);
         pokemonUnorderedList.appendChild(pokemonListItem);
         pokemonButton.addEventListener('click', function () {
