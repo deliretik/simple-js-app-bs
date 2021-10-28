@@ -57,6 +57,7 @@ function showModal(item) {
     let modalBody = $(".modal-body");
     let modalTitle = $(".modal-title");
     let modalHeader = $(".modal-header");
+    //let modalContainer = $("#modal-container")
 
 
 //clear the modal content
@@ -76,7 +77,7 @@ let heightElement =$("<p>" + "height : " + item.height + "</p>");
 modalTitle.append(titleElement);
 modalBody.append(imageElement);
 modalBody.append(heightElement);
-modalContainer.appendChild(modal);
+//modalContainer.appendChild(modal);
       
 
 }
